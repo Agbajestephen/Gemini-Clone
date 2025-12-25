@@ -36,6 +36,7 @@ async function runChat(prompt) {
     {
       category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
     },
+  console.log(response.text());
 }
 
 export default runChat();
