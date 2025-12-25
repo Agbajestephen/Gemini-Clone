@@ -19,6 +19,8 @@ async function runChat(prompt) {
     topP: 1,
     maxoOutputToken: 2048,
   };
+    {
+      threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
     },
     {
       category: HarmCategory.HARM_CATEGORY_HARASSMENT,
