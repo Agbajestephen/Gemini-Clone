@@ -22,6 +22,7 @@ async function runChat(prompt) {
     {
       category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
       threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+    },
     {
       threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
     },
