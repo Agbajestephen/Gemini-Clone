@@ -18,3 +18,4 @@ async function runChat(prompt) {
     topK: 1,
     topP: 1,
     maxoOutputToken: 2048,
+  };
