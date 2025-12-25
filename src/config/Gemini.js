@@ -2,3 +2,4 @@
 
 const {
   GoogleGenerativeAI,
+  HarmCategory,
