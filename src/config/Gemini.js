@@ -35,6 +35,7 @@ async function runChat(prompt) {
     },
     {
       category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+      threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
     },
   console.log(response.text());
 }
