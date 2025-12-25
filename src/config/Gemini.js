@@ -38,6 +38,7 @@ async function runChat(prompt) {
       threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
     },
 
+  const chat = model.startChat({
     generationConfig,
     safetySettings,
     history: [],
