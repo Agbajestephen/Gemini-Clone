@@ -15,3 +15,4 @@ async function runChat(prompt) {
 
   const generationConfig = {
     temperature: 0.9,
+    maxoOutputToken: 2048,
