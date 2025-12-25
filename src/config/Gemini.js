@@ -19,4 +19,5 @@ async function runChat(prompt) {
     topP: 1,
     maxoOutputToken: 2048,
   };
+    },
       category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
