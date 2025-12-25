@@ -20,6 +20,7 @@ async function runChat(prompt) {
     maxoOutputToken: 2048,
   };
     {
+      category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
     {
       threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
     },
