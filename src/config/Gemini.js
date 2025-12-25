@@ -37,6 +37,8 @@ async function runChat(prompt) {
       category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
       threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
     },
+
+    safetySettings,
     history: [],
   });
 
