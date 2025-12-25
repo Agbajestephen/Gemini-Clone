@@ -12,3 +12,4 @@ const API_KEY = "AIzaSyCQcjJDUfMp3tyk4A1nqzciQoE-WcLQxIs";
 async function runChat(prompt) {
   const genAI = new GoogleGenerativeAI(API_KEY);
   const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+
