@@ -1,6 +1,4 @@
-
-
-const {
+import {
   GoogleGenerativeAI,
   HarmCategory,
   HarmBlockThreshold,
