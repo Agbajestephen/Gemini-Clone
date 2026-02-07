@@ -15,7 +15,7 @@ async function runChat(prompt) {
     temperature: 0.9,
     topK: 1,
     topP: 1,
-    maxoOutputToken: 2048,
+    maxOutputTokens: 2048, // ✅ fixed typo
   };
 
   const safetySettings = [
@@ -48,8 +48,4 @@ async function runChat(prompt) {
   console.log(response.text());
 }
 
-export default runChat();
-
-// runChat().catch((err) => {
-//   console.error("Error:", err);
-// });
+export default runChat; // ✅ export the function, not the result
